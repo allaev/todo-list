@@ -1,6 +1,6 @@
 //check off specific lis by clicking
-$("ul").on("click", "li", function(){
-  $(this).toggleClass('completed');
+$("ul").on("click", "li", function(){//when 'li' is clicked inside of a 'ul'
+  $(this).toggleClass('completed');//run this
 })
 
 //click on X to delete a Todo
@@ -17,7 +17,7 @@ $("input[type='text']").on('keypress', function(event){
     //grabbing new Todo text from input
     var todoText = $(this).val();
     //create a new li and add to ul
-    $("ul").append("<li><span>X</span> "+todoText+"</li>");
+    $("ul").append("<li><span><i class='fa fa-trash-alt'></i></span> "+todoText+"</li>");
     //clear the input
     $(this).val("");
   }
