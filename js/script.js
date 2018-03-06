@@ -23,6 +23,7 @@ $("input[type='text']").on('keypress', function(event){
   }
 })
 
+//click on a plus icon to fade in/out the input form
 $(".fa-plus").on('click', function(){
-  $("input[type='text']").fadeToggle('slow');
+  $("input[type='text']").fadeToggle();
 })
