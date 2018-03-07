@@ -39,3 +39,25 @@ $("ul").on('click', "span", function(event){
   });
   event.stopPropagation();
 })
+
+var quotes=[
+  "“Winners never quit and quitters never win” ― Vince Lombardi",
+  "“It always seems impossible until it’s done” ― Nelson Mandela",
+  "“Champions keep playing until they get it right” ― Billie Jean King",
+  "“Victory is always possible for the person who refuses to stop fighting” ― Napoleon Hill",
+  "“Whatever you do, do with all your might” ― Marcus Tullius Cicero",
+  "“Do or do not, there is no try” ― Yoda",
+  "“It does not matter how slowly you go as long as you do not stop” ― Confucius",
+  "“If you can dream it, you can do it” ― Walt Disney",
+  "“The secret of getting ahead is getting started” ― Mark Twain",
+  "“Never, never, never give up” ― Winston Churchill",
+  "“Without a goal, you can’t score” ― Casey Neistat",
+  "“Remember, success is a journey not a destination. Have faith in your ability. You will do just fine” ― Bruce Lee",
+  "“Everything will be okay in the end. If it's not okay, it's not the end” ― John Lennon",
+  "“Plan ahead: It wasn't raining when Noah built the ark.” ― Richard Cushing",
+  "“If you find a path with no obstacles, it probably doesn't lead anywhere.” ― Frank A. Clark"
+];
+var rand=Math.floor(Math.random() * quotes.length); ;
+
+//add a random quote from the array
+$("p").text(quotes[rand]);
