@@ -17,4 +17,4 @@ This todo list allows you to track your tasks.<br>
 - cross out a task simply by clicking on it 
 - or completely delete it :recycle: by clicking on a trash icon, which appears, when you hover over an item<br>
 - you can not enter an empty string, it requires you to enter at least one symbol<br>
-- every time you refresh the page you get a nice motivational quote. :wink:
+- every time you refresh the page you get a nice motivational quote :wink:
