@@ -10,6 +10,7 @@ A Javascript ToDo list<br>
 - Font-Awesome
 - Responsive
 
+![todo-list-screenshot](https://user-images.githubusercontent.com/34710484/37254584-80cc2fd6-2561-11e8-84b0-8678dc615e88.jpg)
 ## Description
 This todo list allows you to track your tasks.<br>
 You can add a new task by typing it into an input form on the top and hitting "Enter" key or clicking the plus sign.<br>
