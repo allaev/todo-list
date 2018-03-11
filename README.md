@@ -1,6 +1,14 @@
-# todo-list
+# todo-list ![CI status](https://img.shields.io/badge/style-flat-green.svg?longCache=true&style=flat)
 A Javascript ToDo list<br>
-JS, jQuery, HTML, CSS, responsive, Font-Awesome, Google Fonts<br><br>
+
+- Javascript
+- jQuery
+- HTML
+- CSS
+- Google Fonts
+- Font-Awesome
+- Responsive
+
 ## Description
 This todo list allows you to track your tasks.<br>
 You can add a new task by typing it into an input form on the top and hitting "Enter" key or clicking the plus sign.<br>
