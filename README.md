@@ -1,5 +1,6 @@
 # todo-list ![CI status](https://img.shields.io/badge/style-flat-green.svg?longCache=true&style=flat)
 A Javascript ToDo list<br>
+### [Live Demo](http://github.allaev.com/todo-list/) :point_left:
 
 - Javascript
 - jQuery
