@@ -34,8 +34,10 @@ h1 {
   font-weight: normal;
 }
 
-.fa-plus {
+.icon-plus {
   float: right;
+  font-weight: 800;
+  cursor: pointer;
 }
 
 input {
@@ -81,6 +83,7 @@ span {
   transition: 0.2s linear;
   opacity: 0;
   float: right;
+  cursor: pointer;
 }
 
 li:hover span {

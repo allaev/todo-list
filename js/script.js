@@ -23,7 +23,7 @@ $("input").keypress(function() {
 })
 
 //or click on a plus icon to create a Todo
-$(".fa-plus").on('click', function(){
+$(".icon-plus").on('click', function(){
   addTodo();
 })
 
